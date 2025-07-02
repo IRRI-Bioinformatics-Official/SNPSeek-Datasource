@@ -64,6 +64,7 @@
 		<class>org.irri.iric.ds.chado.domain.model.VPatoOrganism</class>
 		<class>org.irri.iric.ds.chado.domain.model.VIndelRefposindex</class>
 		<class>org.irri.iric.ds.chado.domain.model.VSnpeff</class>
+		<class>org.irri.iric.ds.chado.domain.model.VGwasRun</class>
 
 		<class>org.irri.iric.ds.chado.domain.model.VSnpGenotypeRDBMS</class>
 
