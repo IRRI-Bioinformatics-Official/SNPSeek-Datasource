@@ -944,4 +944,11 @@ public class VAllstockBasicpropDAOImpl extends AbstractJpaDao<VAllstockBasicprop
 
 	}
 
+	@Override
+	public List<Variety> findVarietyByNamesWithSpace(Collection names, Set dataset) {
+		Query query = createNamedQuery("findVAllstockBasicpropByNamesDatasetWithSpace", -1, -1, DbUtils.toUpperCase(names),
+				DbUtils.toUpperCase(dataset));
+		return query.getResultList();
+	}
+
 }

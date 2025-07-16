@@ -76,7 +76,7 @@
 		<class>org.irri.iric.ds.chado.domain.model.VLocusCvtermpathIric</class>
 		<class>org.irri.iric.ds.chado.domain.model.VLocusCvtermpathMsu7</class>
 		<class>org.irri.iric.ds.chado.domain.model.VLocusCvtermpathRap</class>
-		<!-- <class>org.irri.iric.ds.chado.domain.model.VLocusMergedNotes</class> -->
+		<class>org.irri.iric.ds.chado.domain.model.VLocusMergedNotes</class>
 		<class>org.irri.iric.ds.chado.domain.model.VQtl</class>
 		<!-- <class>org.irri.iric.ds.chado.domain.model.VLocusNotesMarker</class> -->
 		<class>org.irri.iric.ds.chado.domain.model.VLocusInteraction</class>

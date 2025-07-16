@@ -801,4 +801,10 @@ public class VAllsampleBasicpropDAOImpl extends AbstractJpaDao<VAllsampleBasicpr
 		
 	}
 
+	@Override
+	public List<Variety> findVarietyByNamesWithSpace(Collection names, Set dataset) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

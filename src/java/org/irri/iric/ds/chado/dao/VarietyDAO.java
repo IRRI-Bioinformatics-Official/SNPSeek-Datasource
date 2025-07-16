@@ -149,6 +149,8 @@ public interface VarietyDAO {
 	
 	public void setEntityManager(EntityManager entityManager);
 
+	public List<Variety> findVarietyByNamesWithSpace(Collection names, Set dataset);
+
 	/*
 	 * public List getVarietyNames(Set dataset); public Variety
 	 * getGermplasmByAccession(String trim, Set dataset); public Variety
